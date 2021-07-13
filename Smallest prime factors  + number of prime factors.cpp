@@ -16,7 +16,7 @@ typedef std::vector <PIII> VPIII;
 typedef std::vector <int> VI;
 
 
-#define REP(i,a,b,skok) for(int i=a; i<=b; i+=skok)
+#define REP(i,a,b,jump) for(int i=a; i<=b; i+=jump)
 #define FOR(i,a,b) for(int i=a; i*i<=b; ++i)
 #define prime first.first
 #define exponent first.second
