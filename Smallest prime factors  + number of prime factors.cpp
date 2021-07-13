@@ -35,7 +35,7 @@ VPIII smallestPrimeFactors(MAX_N+1);
 
 
 // numberOfPrimeFactors[x] - number of prime factors of x
-VI numberOfPrimeFactors(MAX_N+1); // initially, we assume that all numbers i=0,...,n are primes so numberOfPrimeFactors[i] = 1 for i=0,...,n
+VI numberOfPrimeFactors(MAX_N+1);
 
 
 // Eratostenes sieve in O(n*loglog(n)) time.
