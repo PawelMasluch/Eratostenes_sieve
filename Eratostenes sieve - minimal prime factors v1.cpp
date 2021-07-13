@@ -50,8 +50,8 @@ void EratostenesSieve(int n){
 					}
 				}
 			}
-		} // after this loop: i is prime (i=2,...,n) iff smallestFactors[i] = (i,1)
-	}
+		}
+	} // after this loop: i is prime (i=2,...,n) iff smallestFactors[i] = (i,1)
 }
 
 
